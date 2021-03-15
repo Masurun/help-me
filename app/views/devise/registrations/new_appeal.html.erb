@@ -2,13 +2,13 @@
 
 <%= form_for @appeal do |f| %>
   <%= render "devise/shared/error_messages", resource: @appeal %>
-
-  <div class="field">
+<div class='form-text-wrap'>
+  
     <%= f.label :summary %><br />
     <%= f.text_field :summary %>
   </div>
 
-  <div class="field">
+  <div class='form-text-wrap'>
     <%= f.label :performance %><br />
     <%= f.text_field :performance %>
   </div>
